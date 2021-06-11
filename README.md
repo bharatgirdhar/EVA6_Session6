@@ -33,10 +33,10 @@ It divides the channels into groups and alculates Mean and Variance for Number o
  ![Test Accurcies](./Assignment6/Test_Accuracy.png)
  
 ## Train Accuracy Across Group, Layer and Batch Normalization
-![Train Accuracy](./Assignment6/Train_Accuracy1.PNG)
+![Train Accuracy](./Assignment6/Train_Accuracy1.png)
 
 ## Test Losses Across Group, Layer and Batch Normalization
-![Test Losses](./Assignment6/Test_losses.png)
+![Test Losses](./Assignment6/Test_Losses.png)
 
 ## Train Losses Across Group, Layer and Batch Normalization
 ![Train Losses](./Assignment6/Train_losses.png)

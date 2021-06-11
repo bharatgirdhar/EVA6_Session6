@@ -7,6 +7,10 @@ Model file contains the CNN model for Group, Batch and Layer Normalization and i
 
 ## Main File 
 Main file contains the logic to run ALL 3 Normalization methods one by one using loops for 20 EPOC each. It also contains the logic to print misclassified images and print Graphs.
+Value of parameter vNormalizationType controls the Normalization technique to be used
+0 - Represents Group Normalization
+1- Represents Layer Normalization
+2- Represents Batch Normalization
 
 ## Normalizations
 ### Batch Normalization
@@ -21,11 +25,35 @@ It calculates Mean and Variance for each image for 1 layer.
 It divides the channels into groups and alculates Mean and Variance for Number of groups per image.
 
 
+  ![Normalization Calculations](./Assignment6/Normalization.PNG)
+  
+  
+  
+## Test Accuracy Across Group, Layer and Batch Normalization
+ ![Test Accurcies](./Assignment6/Test_Accuracy.PNG)
+ 
+## Train Accuracy Across Group, Layer and Batch Normalization
+![Train Accuracy](./Assignment6/Train_Accuracy1.PNG)
+
+## Test Losses Across Group, Layer and Batch Normalization
+![Test Losses](./Assignment6/Test_losses.PNG)
+
+## Train Losses Across Group, Layer and Batch Normalization
+![Train Losses](./Assignment6/Train_losses.PNG)
 
 
 
+## Missclassified Images
+
+### Group Normalization
+![Group Misclassified](./Assignment6/image0.PNG)
 
 
+### Layer Normalization
+![Layer Misclassified](./Assignment6/image1.PNG)
+
+### Batch Normalization
+![Batch Misclassified](./Assignment6/image2.PNG)
 
 
 

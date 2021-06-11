@@ -24,6 +24,15 @@ It calculates Mean and Variance for each image for 1 layer.
 ## Group Normalization
 It divides the channels into groups and alculates Mean and Variance for Number of groups per image.
 
+## Findings
+### Layer Normalization without Trainable Parameters<br>
+Layer Normalization performed the best with Best Accuracy of <b>99.50</b><br>
+
+### Batch Normalization with L1<br>
+This Performed Second to best with socres <b>consistently above 99.4</b><br>
+
+### Group Normalization<br>
+This performed well BUT NOT as good as compared to Layer and Batch with scores<b> consistently above 99.3</b>
 
   ![Normalization Calculations](./Assignment6/Normalization.PNG)
   

@@ -25,35 +25,35 @@ It calculates Mean and Variance for each image for 1 layer.
 It divides the channels into groups and alculates Mean and Variance for Number of groups per image.
 
 
-  ![Normalization Calculations](./Assignment6/Normalization.PNG)
+  ![Normalization Calculations](./Assignment6/Normalization.png)
   
   
   
 ## Test Accuracy Across Group, Layer and Batch Normalization
- ![Test Accurcies](./Assignment6/Test_Accuracy.PNG)
+ ![Test Accurcies](./Assignment6/Test_Accuracy.png)
  
 ## Train Accuracy Across Group, Layer and Batch Normalization
 ![Train Accuracy](./Assignment6/Train_Accuracy1.PNG)
 
 ## Test Losses Across Group, Layer and Batch Normalization
-![Test Losses](./Assignment6/Test_losses.PNG)
+![Test Losses](./Assignment6/Test_losses.png)
 
 ## Train Losses Across Group, Layer and Batch Normalization
-![Train Losses](./Assignment6/Train_losses.PNG)
+![Train Losses](./Assignment6/Train_losses.png)
 
 
 
 ## Missclassified Images
 
 ### Group Normalization
-![Group Misclassified](./Assignment6/image0.PNG)
+![Group Misclassified](./Assignment6/image0.png)
 
 
 ### Layer Normalization
-![Layer Misclassified](./Assignment6/image1.PNG)
+![Layer Misclassified](./Assignment6/image1.png)
 
 ### Batch Normalization
-![Batch Misclassified](./Assignment6/image2.PNG)
+![Batch Misclassified](./Assignment6/image2.png)
 
 
 

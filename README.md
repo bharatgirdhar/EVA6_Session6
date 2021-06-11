@@ -32,7 +32,7 @@ Layer Normalization performed the best with Best Accuracy of <b>99.50</b><br>
 This Performed Second to best with socres <b>consistently above 99.4</b><br>
 
 ### Group Normalization<br>
-This performed well BUT NOT as good as compared to Layer and Batch with scores<b> consistently above 99.3</b>
+This performed well BUT NOT as good as compared to Layer and Batch with scores<b> consistently above 99.3</b><br><br><br>
 
   ![Normalization Calculations](./Assignment6/Normalization.PNG)
   

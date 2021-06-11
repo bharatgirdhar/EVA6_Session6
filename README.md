@@ -7,7 +7,7 @@ Model file contains the CNN model for Group, Batch and Layer Normalization and i
 
 ## Main File 
 Main file contains the logic to run ALL 3 Normalization methods one by one using loops for 20 EPOC each. It also contains the logic to print misclassified images and print Graphs.
-Value of parameter vNormalizationType controls the Normalization technique to be used
+Value of parameter vNormalizationType controls the Normalization technique to be used <br>
 0 - Represents Group Normalization
 1- Represents Layer Normalization
 2- Represents Batch Normalization
